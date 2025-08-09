@@ -1,7 +1,5 @@
-function fourNumber(p1, p2, p3, p4){
-    const multi = p1 * p2 * p3 * p4 ;
-    return multi;
-
+function multi(a, b, c, d){
+    return a * b * c * d;
 }
- const output = fourNumber(10,100,1,100000);
-console.log(output);
+const result = multi(4, 5, 78, 94);
+console.log(result);
