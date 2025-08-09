@@ -1,10 +1,15 @@
-function  odd_even(number) {
-    if(number % 2 !== 0){
-        return "Odd";
+function count_zero(binary) {
+    let count = 0;
+    for(const bina of binary){
+        if(bina === "0" ){ //jokhn ami binary likhbo oita string hoye jabe tai " " er vitor dite hbe
+            count++;
+
     }
-    else{
-        return "Even";
+    
     }
+    return count;
+
+    
 }
-console.log(odd_even(10));
-console.log(odd_even(25));
+const result = count_zero("10000110001");//jokhn ami binary likhbo oita string hoye jabe tai " " er vitor dite hbe
+console.log(result);
